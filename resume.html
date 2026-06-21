@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narin Mandrawlia — Resume</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+      font-size: 10.5pt;
+      color: #1a1a1a;
+      background: #fff;
+      line-height: 1.45;
+    }
+
+    .page {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 28px 36px 28px 36px;
+    }
+
+    /* ── Header ── */
+    header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #111;
+    }
+
+    .tagline {
+      font-size: 10pt;
+      color: #333;
+      margin-top: 3px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .contact {
+      font-size: 9.5pt;
+      color: #444;
+      margin-top: 5px;
+    }
+
+    .contact a {
+      color: #444;
+      text-decoration: none;
+    }
+
+    .contact a:hover { text-decoration: underline; }
+
+    /* ── Divider ── */
+    hr {
+      border: none;
+      border-top: 1.5px solid #222;
+      margin: 7px 0 5px 0;
+    }
+
+    hr.thin {
+      border-top: 0.5px solid #bbb;
+      margin: 4px 0;
+    }
+
+    /* ── Section ── */
+    section { margin-bottom: 10px; }
+
+    .section-title {
+      font-size: 10pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #111;
+      margin-bottom: 4px;
+    }
+
+    /* ── Summary ── */
+    .summary p {
+      text-align: justify;
+      font-size: 10pt;
+    }
+
+    /* ── Skills ── */
+    .skills-grid { display: flex; flex-direction: column; gap: 2px; }
+    .skill-row { font-size: 10pt; }
+    .skill-row strong { color: #111; }
+
+    /* ── Experience ── */
+    .job { margin-bottom: 8px; }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .job-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #111;
+    }
+
+    .job-date {
+      font-size: 9.5pt;
+      color: #555;
+      white-space: nowrap;
+    }
+
+    .job-company {
+      font-size: 10pt;
+      color: #333;
+      font-style: italic;
+      margin-bottom: 3px;
+    }
+
+    ul {
+      padding-left: 14px;
+      margin-top: 2px;
+    }
+
+    ul li {
+      font-size: 10pt;
+      margin-bottom: 2px;
+      text-align: justify;
+    }
+
+    /* ── Projects ── */
+    .project { margin-bottom: 8px; }
+
+    .project-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .project-name {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: #111;
+    }
+
+    .project-stack {
+      font-size: 9.5pt;
+      color: #555;
+      font-style: italic;
+      margin-bottom: 3px;
+    }
+
+    /* ── Education ── */
+    .edu-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+
+    .edu-degree { font-weight: 700; font-size: 10.5pt; }
+    .edu-date { font-size: 9.5pt; color: #555; }
+    .edu-school { font-size: 10pt; color: #333; font-style: italic; }
+
+    /* ── Certs ── */
+    .cert-item { font-size: 10pt; margin-bottom: 2px; }
+
+    @media print {
+      body { background: #fff; }
+      .page { padding: 18px 30px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <header>
+    <h1>Narin Mandrawlia</h1>
+    <div class="tagline">Frontend Software Engineer &nbsp;·&nbsp; React.js &nbsp;·&nbsp; React Native </div>
+    <div class="contact">
+      narinmandrawlia143@gmail.com &nbsp;|&nbsp;
+      +91 7506494396 &nbsp;|&nbsp;
+      Mumbai, India &nbsp;|&nbsp;
+      <a href="https://linkedin.com/in/narin-mandrawlia">linkedin.com/in/narin-mandrawlia</a> &nbsp;|&nbsp;
+      <a href="https://github.com/Narin19">github.com/Narin19</a>
+    </div>
+  </header>
+
+  <hr />
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <section class="summary">
+    <div class="section-title">Professional Summary</div>
+    <p>
+      Frontend Software Engineer with 2.5+ years of experience designing and shipping production-grade web and mobile applications using React.js, React Native, and TypeScript. Delivered 4 cross-platform products across EV technology, workforce management, and fintech serving 1,000+ active users. Deep expertise in responsive UI architecture, component library design, state management (Redux Toolkit, Zustand), REST API integration, real-time systems (Firebase, Socket.io), and CI/CD release pipelines. Consistently drives frontend quality through performance optimization, code reviews, and Agile execution.
+    </p>
+  </section>
+
+  <hr class="thin"/>
+
+  <!-- TECHNICAL SKILLS -->
+  <section>
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-row"><strong>Languages:</strong> JavaScript (ES6+), TypeScript, HTML5, CSS3, JSX</div>
+      <div class="skill-row"><strong>Frontend:</strong> React.js, React Native (CLI &amp; Expo), Material UI (MUI), Expo Router, Responsive Design, Component Libraries</div>
+      <div class="skill-row"><strong>State Management:</strong> Redux Toolkit, RTK Query, Redux Saga, Zustand, Redux Persist, Context API</div>
+      <div class="skill-row"><strong>Mobile &amp; Real-Time:</strong> Expo, EAS Build, CI/CD, Firebase (Auth / Firestore / FCM), Socket.io, OneSignal, Google Maps SDK, Geofencing</div>
+      <div class="skill-row"><strong>Backend &amp; APIs:</strong> REST APIs, Node.js (Basic), Axios, JWT Authentication, React Hook Form</div>
+      <div class="skill-row"><strong>Reporting:</strong> jsPDF, html2canvas, XLSX, Highcharts, MUI X Data Grid</div>
+      <div class="skill-row"><strong>Testing &amp; Quality:</strong> Unit Testing, Jest, Code Reviews, ESLint, Performance Optimization</div>
+      <div class="skill-row"><strong>Tools:</strong> Git, GitHub, Postman, Figma, JIRA, Agile/Scrum, Vite, ProGuard, Gradle, VS Code</div>
+    </div>
+  </section>
+
+  <hr class="thin"/>
+
+  <!-- WORK EXPERIENCE -->
+  <section>
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Software Developer</span>
+        <span class="job-date">Mar 2024 – Present</span>
+      </div>
+      <div class="job-company">TechStalwarts Software Development LLP, Mumbai</div>
+      <ul>
+        <li>Designed and delivered 4 production-grade cross-platform web and mobile applications across EV technology, workforce management, and fintech, serving 1,000+ active users.</li>
+        <li>Owned end-to-end frontend lifecycle — responsive UI development, component library architecture, REST API integration, state management, and CI/CD release builds.</li>
+        <li>Integrated Firebase Firestore and Socket.io for real-time messaging, push notifications, and live event tracking across mobile and web applications.</li>
+        <li>Implemented GPS geofencing and background location tracking using Expo Task Manager for automated attendance verification across 50+ simultaneous check-ins.</li>
+        <li>Optimized Android build pipeline achieving 75% faster build times and 30MB APK size reduction using ProGuard and Gradle caching.</li>
+        <li>Performed code reviews, resolved 30+ production bugs, and improved application performance through continuous optimization in cross-functional Agile sprints.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="thin"/>
+
+  <!-- KEY PROJECTS -->
+  <section>
+    <div class="section-title">Key Projects</div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-name">EVJoints — EV Charging Station Finder App</span>
+      </div>
+      <div class="project-stack">React Native · TypeScript · Redux Toolkit (RTK Query) · Zustand · Google Maps SDK · Android Auto</div>
+      <ul>
+        <li>Developed cross-platform EV station finder with Google Maps SDK for real-time discovery and Android Auto in-car navigation via Kotlin CarScreen.</li>
+        <li>Optimized arm64-v8a build pipeline: 75% faster builds, 30MB APK reduction; enforced HTTPS-only security in production.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-name">Inxits — Event &amp; Invitation Management Platform</span>
+      </div>
+      <div class="project-stack">React Native · TypeScript · Redux Toolkit · RTK Query · Firebase Auth · Firestore</div>
+      <ul>
+        <li>Engineered event creation, configuration, and participant invitation workflows with Firebase Auth and real-time Firestore sync for seamless onboarding.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-name">The Radius App — Real-Time Workforce Coordination</span>
+        <span style="font-size:9pt;color:#666;">com.techstalwarts.theradius v1.0.7</span>
+      </div>
+      <div class="project-stack">React Native 0.81 · Expo 54 · TypeScript · Expo Router · Redux Toolkit · Firebase · Socket.io · OneSignal · EAS</div>
+      <ul>
+        <li>Shipped production iOS &amp; Android app coordinating 100+ field staff with GPS geofencing check-in/out and live event tracking.</li>
+        <li>Developed 1:1 and group chat with typing indicators, read receipts, and offline-first Firestore persistence.</li>
+        <li>Configured EAS multi-environment CI/CD pipelines and integrated OneSignal push notifications with deep-link routing.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <div class="project-header">
+        <span class="project-name">Radius Admin Portal — Web-Based Workforce Management Dashboard</span>
+      </div>
+      <div class="project-stack">React.js · TypeScript · Material UI (MUI) · Redux Toolkit (RTK Query) · REST APIs</div>
+      <ul>
+        <li>Developed a responsive React.js web application for event configuration, staff management, and invitation workflows with real-time data sync and role-based access control.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="thin"/>
+
+  <!-- EDUCATION -->
+  <section>
+    <div class="section-title">Education</div>
+    <div class="edu-header">
+      <span class="edu-degree">B.Tech. — Electronics and Communication Engineering</span>
+      <span class="edu-date">2018 – 2022</span>
+    </div>
+    <div class="edu-school">Poornima College of Engineering, Jaipur (RTU)</div>
+  </section>
+
+  <hr class="thin"/>
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <div class="section-title">Certifications &amp; Achievements</div>
+    <div class="cert-item">• Frontend Development Certification — Techpaathshala, Vikhroli &nbsp; <em>2023 – 2024</em></div>
+  </section>
+
+</div>
+</body>
+</html>
