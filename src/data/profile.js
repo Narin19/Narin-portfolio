@@ -15,7 +15,7 @@ export const profile = {
   github: 'https://github.com/Narin19',
   // Drop your resume PDF into the /public folder and point this here,
   // e.g. '/Narin_Mandrawlia_Resume.pdf'. Leave null to hide the button.
-  resumeUrl: null,
+  resumeUrl: '/Narin_Mandrawlia_Resume.pdf',
   portfolioUrl: 'https://narin-profolio.vercel.app',
 }
 

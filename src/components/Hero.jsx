@@ -91,24 +91,13 @@ export default function Hero() {
             <Button
               variant="outlined"
               size="large"
-              startIcon={<EmailRoundedIcon />}
-              onClick={() => scrollTo('contact')}
+              startIcon={<DescriptionRoundedIcon />}
+              href={profile.resumeUrl}
+              download
               sx={{ borderColor: 'divider', color: 'text.primary' }}
             >
-              Contact me
+              Download Resume
             </Button>
-            {profile.resumeUrl && (
-              <Button
-                variant="text"
-                size="large"
-                startIcon={<DescriptionRoundedIcon />}
-                href={profile.resumeUrl}
-                target="_blank"
-                rel="noopener"
-              >
-                Resume
-              </Button>
-            )}
           </Stack>
 
           <Stack direction="row" spacing={1}>
